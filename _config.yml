@@ -1,0 +1,11 @@
+title: Zach's Blog
+description: Zach's Blog
+author: Zachary
+
+theme: minima
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
