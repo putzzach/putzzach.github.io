@@ -4,6 +4,9 @@ author: Zachary
 
 theme: minima
 
+minima:
+  skin: dark
+
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 
