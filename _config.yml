@@ -2,7 +2,7 @@ title: Zach's Blog
 description: Zach's Blog
 author: Zachary
 
-theme: hacker
+theme: jekyll-theme-hacker
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
