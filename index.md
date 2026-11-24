@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Zach's Blog
 ---
 
-Initial blog
+Thoughts, projects, and things I learn along the way.

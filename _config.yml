@@ -7,6 +7,9 @@ theme: minima
 minima:
   skin: dark
 
+header_pages:
+  - index.md
+
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 

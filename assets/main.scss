@@ -1,0 +1,158 @@
+---
+---
+
+@import "minima";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #0b1120;
+  color: #dbe4f0;
+}
+
+.site-header {
+  background: rgba(11, 17, 32, 0.96);
+  border-top: 0;
+  border-bottom: 1px solid #263449;
+  backdrop-filter: blur(12px);
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link {
+  color: #f8fafc;
+}
+
+.site-title {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.site-nav .page-link:hover,
+a {
+  color: #63b3ff;
+}
+
+a {
+  transition: color 120ms ease, opacity 120ms ease;
+}
+
+a:visited {
+  color: #9b8cff;
+}
+
+a:hover {
+  color: #91cbff;
+  text-decoration: none;
+}
+
+.page-content {
+  min-height: calc(100vh - 140px);
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+.page-heading,
+.post-title,
+.post-list-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f8fafc;
+}
+
+.post-list {
+  margin-top: 28px;
+}
+
+.post-list > li {
+  margin-bottom: 20px;
+  padding: 22px 24px;
+  background: #111827;
+  border: 1px solid #263449;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+}
+
+.post-list h3 {
+  margin-bottom: 6px;
+}
+
+.post-meta {
+  color: #94a3b8;
+}
+
+.post-content {
+  line-height: 1.75;
+}
+
+.post-content img {
+  border-radius: 10px;
+}
+
+.post-content blockquote,
+.highlighter-rouge .highlight,
+pre,
+code {
+  background: #111827;
+  border-color: #263449;
+  color: #dbe4f0;
+}
+
+.post-content blockquote {
+  border-left-color: #63b3ff;
+  color: #bac7d8;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #263449;
+}
+
+.site-footer {
+  background: #080e1a;
+  border-top: 1px solid #263449;
+  color: #94a3b8;
+}
+
+.footer-heading,
+.site-footer a {
+  color: #dbe4f0;
+}
+
+::selection {
+  background: #2563a9;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    position: relative;
+  }
+
+  .site-nav {
+    background: #111827;
+    border: 1px solid #263449;
+  }
+
+  .site-nav .menu-icon > svg {
+    fill: #dbe4f0;
+  }
+
+  .post-list > li {
+    padding: 18px;
+  }
+
+  .page-content {
+    padding-top: 28px;
+  }
+}
