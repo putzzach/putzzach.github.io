@@ -87,6 +87,22 @@ h6 {
   margin-bottom: 6px;
 }
 
+.post-list-meta,
+.post-tags-inline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.post-list-meta {
+  margin-bottom: 6px;
+}
+
+.post-tags-inline {
+  margin: 0;
+}
+
 .post-meta {
   color: #94a3b8;
 }
@@ -118,6 +134,22 @@ h6 {
 
 .post-content {
   line-height: 1.75;
+}
+
+.post-content table {
+  color: #dbe4f0;
+  border-color: #263449;
+}
+
+.post-content th,
+.post-content td {
+  background-color: #111827;
+  border: 1px solid #263449;
+}
+
+.post-content th {
+  background-color: #1b2a41;
+  color: #f8fafc;
 }
 
 .post-content img {
