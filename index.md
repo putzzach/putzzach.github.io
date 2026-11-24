@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Zach's Blog
+title: HackZach blog
 ---
 
-Thoughts, projects, and things I learn along the way.
+Still trying to figure out what to put here
