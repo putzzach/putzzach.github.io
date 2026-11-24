@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Zach's thoughts and tech notes
+title: Blog
 ---
 
 homelab stuff, cybersecurity interests
