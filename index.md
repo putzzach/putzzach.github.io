@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Blog
+title: Zach's thoughts and tech notes
 ---
 
-Still trying to figure out what to put here
+homelab stuff, cybersecurity interests
+
+a little bit of this and a little bit of that ahh blog

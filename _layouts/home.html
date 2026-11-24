@@ -18,7 +18,7 @@ layout: default
           <div class="post-list-meta">
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             {%- if post.tags.size > 0 -%}
-              <span class="post-tags post-tags-inline">
+              <span class="post-tags-inline">
                 {%- for tag in post.tags -%}
                   <a class="post-tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag | escape }}</a>
                 {%- endfor -%}
