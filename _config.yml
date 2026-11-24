@@ -1,8 +1,11 @@
-title: Zach's Blog
-description: Zach's Blog
+title: HackZach
+description: A personal corner for thoughts, experiments, and whatever comes next.
 author: Zachary
 
 theme: minima
+header_pages:
+  - index.md
+  - thoughts.md
 
 minima:
   skin: dark
