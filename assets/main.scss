@@ -91,28 +91,29 @@ h6 {
   color: #94a3b8;
 }
 
-.post-taxonomy {
+.post-tags {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 8px 16px;
+  gap: 8px;
   margin-top: -12px;
   color: #94a3b8;
 }
 
-.post-taxonomy-group {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-}
-
-.post-taxonomy-item {
+.post-tag,
+.post-tag:visited {
+  color: #dbe4f0;
   padding: 2px 8px;
   background: #111827;
   border: 1px solid #263449;
   border-radius: 999px;
-  color: #dbe4f0;
   font-size: 0.85em;
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  border-color: #63b3ff;
+  color: #91cbff;
 }
 
 .post-content {

@@ -9,6 +9,7 @@ minima:
 
 header_pages:
   - index.md
+  - tags.md
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
